@@ -21,3 +21,7 @@ print("after extending with [50, 60, 70]:", my_list)
 removed = my_list.pop()  # pops last element
 print("removed last element:", removed)
 print("current list:", my_list)
+
+# Step 6: sort list ascending
+my_list.sort()
+print("after sorting ascending:", my_list)
