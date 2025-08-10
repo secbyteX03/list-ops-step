@@ -9,4 +9,6 @@ my_list.append(30)
 my_list.append(40)
 print("after appends:", my_list)
 
-
+# Step 3: insert 15 at second position (index 1)
+my_list.insert(1, 15)
+print("after inserting 15 at index 1:", my_list)
