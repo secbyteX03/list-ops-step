@@ -16,3 +16,8 @@ print("after inserting 15 at index 1:", my_list)
 # Step 4: extend with [50, 60, 70]
 my_list.extend([50, 60, 70])
 print("after extending with [50, 60, 70]:", my_list)
+
+# Step 5: remove last element
+removed = my_list.pop()  # pops last element
+print("removed last element:", removed)
+print("current list:", my_list)
